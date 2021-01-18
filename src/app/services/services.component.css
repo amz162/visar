@@ -1,0 +1,79 @@
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+.set{
+  margin-top: 20px;
+}
+.bg-main{
+  background-color: #000000;
+  color:#8ef0f0;
+}
+.card-img{
+  width: 50%;
+  height: auto;
+
+}
+.clent-img{
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+}
+.card-bg{
+  background-color: #e7e7e7;
+  color: rgb(0, 0, 0);
+  width: 18rem;
+  height: 10rem;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+.srow{
+  margin-top: 20px;
+}
+.image-style{
+   width: 25em;
+    height: 15em;
+}
+.content{
+  width: 40%;
+  margin-right: 20%;
+  margin-top: 4%;
+   cursor: pointer;
+   padding-left: 10px;
+   padding-right: 10px;
+}

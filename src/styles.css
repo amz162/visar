@@ -1,0 +1,19 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+.btn-color-prpl{
+    background-color: darkmagenta;
+    color: white;
+    padding: 8px;
+    margin: 10px;
+}
+.btn-color-prpl:hover{
+    background-color:darkviolet;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

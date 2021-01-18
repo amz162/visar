@@ -1,0 +1,17 @@
+.bg-company-purple {
+    background-color:#008888 ;
+    color: black;
+
+}
+.color{background-color: black;
+}
+.color:hover{
+    background-color: rgb(78, 78, 78);
+}
+.margin-right{
+    margin-right: 100px;
+}
+.font
+{
+  font-size: 120%;
+}

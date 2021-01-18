@@ -1,0 +1,99 @@
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+.set{
+  margin-top: 20px;
+}
+.bg-main{
+  background-color: #000000;
+  color:#8ef0f0;
+}
+.card-img{
+  width: 50%;
+  height: auto;
+
+}
+.clent-img{
+  width: 10%;
+  height: 10%;
+
+}
+.card-bg{
+  background-color: #e7e7e7;
+  color: rgb(29, 26, 26);
+  width: 18rem;
+  height: 10rem;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+.srow{
+  margin-top: 20px;
+}
+.img-style
+{
+  width: 60%;
+  height:60% ;
+  margin-left:20%;
+  margin-top:5%;
+}
+h5{
+  padding-left: 0.9%;
+  padding-top:0.9%;
+}
+p{
+  padding: 0.9%;
+
+}
+.marg-text{
+  color: white;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: x-large;
+}
+.bg-main{
+  background-color: #000000;
+  color:#8ef0f0;
+  margin-top: 5%;
+}
+.clent-img{
+  width: 100px;
+  height: auto;
+  margin-left: 20px;
+}

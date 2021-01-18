@@ -1,0 +1,303 @@
+<div class="container div_center bg-black">
+  <!--WHAT WE DO-->
+  
+    <div class="text-center bg-main">
+      <h1 >PROJECTS</h1>
+        <div class="row row-div">
+          <div class="col-sm-6 gap">
+            <div class="btn-group dropright btn-main rounded">
+              <button type="button" (click)="setitem(1)" class="btn btn-dd  ">
+                Event Promotion
+              </button>
+              <button
+                type="button"
+                class="btn btn-dd  dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle Dropright</span>
+              </button>
+              <div class="dropdown-menu main-menus text-center">
+                <!-- Dropdown menu links -->
+                <a class="dropdown-item menus "><strong>EXAMPLES</strong></a>
+                <a class="dropdown-item menus ">Uni Event</a>
+                <a class="dropdown-item menus ">Family Event</a>
+                <a class="dropdown-item menus ">Trip and Tour</a>
+              </div>
+            </div>
+            <br />
+            <div class="btn-group dropright btn-main rounded">
+              <button type="button" (click)="setitem(2)" class="btn btn-dd  ">
+                Birthday Wish Filter
+              </button>
+              <button
+                type="button"
+                class="btn btn-dd  dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle Dropright</span>
+              </button>
+              <div class="dropdown-menu main-menus text-center">
+                <!-- Dropdown menu links -->
+                <a class="dropdown-item menus text-center"
+                  ><strong>EXAMPLES</strong></a
+                >
+                <a class="dropdown-item menus ">Gift Box</a>
+                <a class="dropdown-item menus ">Anniversary</a>
+                <a class="dropdown-item menus ">Happy marriage</a>
+              </div>
+            </div>
+            <br />
+            <div class="btn-group dropright btn-main rounded">
+              <button type="button" (click)="setitem(3)" class="btn btn-dd  ">
+                Cafe Filter
+              </button>
+              <button
+                type="button"
+                class="btn btn-dd  dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle Dropright</span>
+              </button>
+              <div class="dropdown-menu main-menus text-center">
+                <!-- Dropdown menu links -->
+                <a class="dropdown-item menus text-center"
+                  ><strong>EXAMPLES</strong></a
+                >
+                <a class="dropdown-item menus " href="#">Menu</a>
+                <a class="dropdown-item menus " href="#">AR 3D objects</a>
+                <a class="dropdown-item menus " href="#">Cafe Theme Based</a>
+              </div>
+            </div>
+            <br />
+            <div class="btn-group dropright btn-main rounded">
+              <button type="button" (click)="setitem(4)" class="btn btn-dd  ">
+                Face Filter
+              </button>
+              <button
+                type="button"
+                class="btn btn-dd  dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle Dropright</span>
+              </button>
+              <div class="dropdown-menu main-menus text-center">
+                <!-- Dropdown menu links -->
+                <a class="dropdown-item menus text-center"
+                  ><strong>EXAMPLES</strong></a
+                >
+                <a class="dropdown-item menus ">Face paint</a>
+                <a class="dropdown-item menus ">3D object with Face</a>
+              </div>
+            </div>
+            <br />
+            <div class="btn-group dropright btn-main rounded">
+              <button type="button" (click)="setitem(5)" class="btn btn-dd  ">
+                Time Counter Filters
+              </button>
+              <button
+                type="button"
+                class="btn btn-dd  dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle Dropright</span>
+              </button>
+              <div class="dropdown-menu main-menus text-center">
+                <!-- Dropdown menu links -->
+                <a class="dropdown-item menus text-center"
+                  ><strong>EXAMPLES</strong></a
+                >
+                <a class="dropdown-item menus ">Event counter</a>
+                <a class="dropdown-item menus ">Birthday counter</a>
+                <a class="dropdown-item menus ">Graduation counter</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="containers">
+              <img  class="img-sets float-right rounded" [src]="imgs"/> 
+              <div class="centereds"><video class="video float-right " loop autoplay [muted]="'muted'">
+                <source [src]="filter" type="video/mp4" /> Your browser does not support HTML5 video.</video>
+              </div>
+            </div>
+            
+            <!--<a class="btn btn-color-prpl " [href]="try" target="_blank"
+              >Try Now</a
+            >-->
+          </div>
+        </div>
+     </div>
+ 
+
+  <!--card set-->
+  
+    <div class="text-center bg-main">
+      <h1 >
+        PROMOTING FILTER
+      </h1>
+    </div>
+        <div class="row row-div">
+          <div class="col-sm-6 mar-rt">
+            <img
+              class="img-set float-right rounded"
+              [src]="img"
+            />
+          </div>
+          <div class="col-sm-6 gap">
+            <div class="btn-group dropright btn-mains rounded">
+              <button type="button" (click)="setitems(1)" class="btn btn-dd  ">
+                Banner promotions
+              </button>
+            </div>
+            <br />
+            <div class="btn-group dropright btn-mains rounded">
+              <button type="button" (click)="setitems(2)" class="btn btn-dd  ">
+                Facebook promotions
+              </button>
+            </div>
+            <br />
+            <div class="btn-group dropright btn-mains rounded">
+              <button type="button" (click)="setitems(3)" class="btn btn-dd  ">
+                Instagram promotions
+              </button>
+            </div>
+            <br />
+            <div class="btn-group dropright btn-mains rounded">
+              <button type="button" (click)="setitems(4)" class="btn btn-dd  ">
+                Twitter promotions
+              </button>
+            </div>
+            <br />
+          </div>
+        </div>
+     
+
+  <!--new bar-->
+  
+    <div class="text-center bg-main">
+      <h1 >PROMOTING FILTER AT FACEBOOK</h1>
+    </div>
+        <div class="row row-div text-center">
+          <div class="sm-div text-center">
+            <img  class="img-set rounded mg-top" [src]="f1" />
+            <br />
+            <h6>
+              Create a Facebook post
+            </h6>
+          </div>
+          <div class="sm-div text-center">
+            <img class="img-set rounded mg-top" [src]="f2" />
+            <br />
+            <h6>
+              Create a Facebook story
+            </h6>
+          </div>
+          <div  class="sm-div text-center">
+            <img  class="img-set rounded" [src]="f3" />
+            <br />
+            <h6>
+              Send in Messenger to friend(s)
+            </h6>
+          </div>
+        </div>
+        <div class="row row-div text-center">
+          <div class="sm-div text-center">
+            <img class="img-set rounded" [src]="f4" />
+            <br />
+            <h6>
+              Share in groups as stories
+            </h6>
+          </div>
+          <div class="sm-div text-center ">
+            <img class="img-set rounded mg-top" [src]="f5" />
+            <br />
+            <h6>
+              Save to camera roll
+            </h6>
+          </div>
+        </div>
+       
+
+
+
+
+
+
+  <!--card insta set-->
+  
+    <div class="text-center bg-main">
+      <h1 >
+        PROMOTING FILTER AT INSTAGRAM
+      </h1>
+    </div>
+        <div class="text-center">
+          <b
+            ><h3>
+              Publishing and promoting Instagram AR filters. How do users
+              discover branded Instagram AR filters?
+            </h3></b
+          >
+          <br />
+          Instagram camera filter is a mobile only experience.
+        </div>
+
+        <div class="row row-div text-center">
+          <div class="sm-div text-center">
+            <img class="img-set rounded" [src]="i1" />
+            <br />
+            <h6>
+              Post as a story about the <br />Instagram Filter and users<br />
+              can swipe up to try
+            </h6>
+          </div>
+          <div class="sm-div text-center">
+            <img class="img-set rounded" [src]="i2" />
+            <br />
+            <h6>
+              Publish Instagram feed ads <br />with a link to try the filter
+            </h6>
+          </div>
+          <div class="sm-div text-center">
+            <img class="img-set rounded" [src]="i3" />
+            <br />
+            <h6>
+              Post the link to try the <br />Instagram AR filter in the bio
+            </h6>
+          </div>
+        </div>
+        <div class="row row-div text-center">
+          <div class="sm-div text-center">
+            <img class="img-set rounded" [src]="i4" />
+            <br />
+            <h6>
+              Visit the Filters section on the<br />
+              brand's Instagram page
+            </h6>
+          </div>
+          <div class="sm-div text-center">
+            <img class="img-set rounded" [src]="i5" />
+            <br />
+            <h6>
+              Get influencers use the<br />Instagram AR filter with a link<br />
+              to try
+            </h6>
+          </div>
+          <div class="sm-div text-center">
+            <img class="img-set rounded" [src]="i6" />
+            <br />
+            <h6>
+              Deploy QR codes that users<br />can scan to launch the<br />
+              Instagram AR filter
+            </h6>
+          </div>
+        </div>
+</div>
